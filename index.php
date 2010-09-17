@@ -25,10 +25,7 @@ if (file_exists(realpath($CONF['HTDOCS_PATH'].'conf/config.php'))) {
 	print 'Configuration file not found!';
 }
 
-if(isset($_GET['img'])) {
-	$oLoad = $t2i->loadImage($_GET['img']);
-	print $oLoad;
-} else if($CONF['GENERATOR_FORM']) {
+if($CONF['GENERATOR_FORM']) {
   if(file_exists($CONF['GENERATOR_TEMPLATE'])) {
     include_once($CONF['GENERATOR_TEMPLATE']);	
   }
