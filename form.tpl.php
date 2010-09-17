@@ -28,7 +28,7 @@ $sOutput     = ($sOutput ? $sOutput : 'No Output generated!');
 </head>
 <body>
  <h1>txt2img Generator Form</h1>
- <p>This Form helps yout to Create Images from Text</p>
+ <p>This Form helps yout to create Images from Text</p>
  <form action="<?php print $_SERVER['PHP_SELF']; ?>" method="post">
  <table border="0" summary="txt2img Form">
   <tr>
@@ -49,7 +49,7 @@ $sOutput     = ($sOutput ? $sOutput : 'No Output generated!');
    </td>
   </tr>
   <tr>
-   <td class="txt">Font-Size:</td>
+   <td class="txt">Font Size:</td>
    <td> <select name="size">
          <?php print $t2i->getFontSizes($sSize); ?>
         </select>
