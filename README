@@ -1,0 +1,15 @@
+README
+======
+
+Copyright (c) 2010, Marcel Hauri <hello@m83.ch>
+
+
+
+What is txt2img?
+----------------
+txt2img automatically generated a picture from the input text.
+
+TODO's
+------
+ - Clean index.php from unuses code
+ - Write Documentation
