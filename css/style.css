@@ -1,0 +1,173 @@
+* {
+	margin:0;
+	padding:0;
+}
+html {
+	margin:0;
+	padding:30px;
+}
+body {
+	background:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#666;
+	line-height: 26px;
+	text-align:left;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+	background-color: #eee;
+	padding: 1px 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+    color: #343434;
+	background-color: #ddd;
+}
+	
+h1 a, h2 a, h3 a, #sitename {
+	color:#343434;
+	}
+		
+h1 a:hover, h2 a:hover, h3 a:hover, #sitename:hover {
+	text-decoration:none;
+	color:#000;
+	}
+
+p { margin:3px 0;}
+	
+h1, h2, h3, h4, h5, h6 {
+	font-weight:bold;
+	font-style:italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color:#343434;
+	}
+	
+h1, h2 {
+	font-size:2em;
+	line-height:30px;
+	margin-bottom:14px;
+	}
+	
+	.entry h2 {
+		font-size:1.8em;
+		margin-top:30px;
+	}
+	
+h3 {
+	font-size:1.5em;
+	line-height:20px;
+	margin-top:30px;
+	}
+	
+h4, h5, h6 {
+	margin-top:30px;
+}
+	
+.pagetitle {
+	font:normal 1em/10px Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	margin-bottom:20px;
+	display:block;
+	margin-top:-30px;
+	}
+	
+small {
+	font-size:11px;
+	color:#b6b6b6;
+	line-height:10px;
+	}
+	
+.caps {
+	text-transform:uppercase;
+	margin-bottom:6px;
+	display:block;
+}
+	
+code {
+	font: 1.1em "Courier New", Courier, Fixed;
+	}
+	
+pre {
+	font: 1.1em "Courier New", Courier, Fixed;
+	margin:1.5em;
+	padding:10px;
+	background:#fafafa;
+	border:1px solid #eee;
+	}
+	
+acronym, abbr {
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+	
+hr {
+	clear:both;
+	width:580px;
+	height: 1px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #888;
+	}
+	
+img {
+	border:none;
+	max-width:100%;
+	}
+	
+blockquote {
+	margin-left:-21px;
+	padding-left:21px;
+	background:url(images/quote.gif) no-repeat 0 6px;
+	color:#343434;
+}
+
+textarea {
+	border: 1px solid #888;
+	padding: 3px;
+	margin: 0px;
+	width: 580px;
+	height: 200px;
+}
+input {
+	border: 1px solid #888;
+	width: 120px;
+	background-color: #eee;
+	margin: 5px 0px;
+}
+select {
+	border: 1px solid #888;
+	background-color: #eee;
+        margin-left: 11px;
+	width: 120px;
+        text-align: right;
+}
+.submit {padding: 10px;}
+.space {
+	margin: 5px 0px;
+}
+.hr {
+	width: 590px;
+	height: 1px;
+	background-color: #888;
+	overflow: hidden;
+	margin: 10px 0px;
+}
+.longtext {
+	width: 580px; 
+	font-size: 14px; 
+	padding: 5px;
+}
+img {
+	border: 1px dotted #ddd;
+        background-color: #eee;
+	padding: 5px;
+}
+td.txt {width: 460px; }
